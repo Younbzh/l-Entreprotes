@@ -1,110 +1,131 @@
 export const siteConfig = {
-  name: "Nail.art.rox by Dina",
-  tagline: "Ongles parfaits, toujours",
-  description: "Prothésiste ongulaire passionnée par les détails et la couleur. Gel, semi-permanent, nail art & pédicure avec soin et douceur à Moréac.",
+  name: "L'Entrepôtes",
+  tagline: "Bar à pizzas & Karaoké à Quimper",
+  description: "Bar festif à Quimper : pizzas personnalisables 26cm et karaoké à la demande. Ambiance conviviale garantie !",
   
   contact: {
-    address: "1 Kerob, 56500 Moréac",
-    phone: "06 60 27 48 20",
-    email: null,
+    address: "3 bis rue Jean Jaurès, 29000 Quimper",
+    phone: "06 28 21 10 48",
+    email: "thierryfalcher@gmail.com",
     location: {
-      lat: 47.9205,
-      lng: -2.8327
+      lat: 47.993499756,
+      lng: -4.096469879
     }
   },
 
   social: {
-    instagram: "https://www.instagram.com/nail_artroxy",
-    facebook: "https://www.facebook.com/people/Nailartrox-by-Dina/61570895737920/"
+    facebook: "https://www.facebook.com/people/Lentrep%C3%B4tes/61565513917585/"
   },
 
   hours: {
-    type: "Sur rendez-vous uniquement",
-    note: "Prise de rendez-vous en message privé sur Instagram ou Facebook"
+    schedule: {
+      lundi: "Fermé",
+      mardi: "Fermé", 
+      mercredi: "19h - 1h",
+      jeudi: "19h - 1h",
+      vendredi: "19h - 1h",
+      samedi: "19h - 1h",
+      dimanche: "19h - 1h"
+    },
+    service: "Service jusqu'à minuit"
   },
 
   about: {
-    owner: "Roxana",
-    story: "Je suis Roxana, prothésiste ongulaire passionnée par les détails et la couleur. Chaque ongle est une petite œuvre d'art que je crée avec soin et douceur.",
-    values: [
-      "Attention aux détails",
-      "Écoute personnalisée",
-      "Produits de qualité",
-      "Créativité sur-mesure"
-    ],
-    personality: "Féminité moderne, passion de l'art ongulaire, approche girly sans stéréotypes"
+    owner: "Thierry Falcher (Tyty)",
+    story: "Ancien restaurant à viande reconverti en bar à pizzas festif, L'Entrepôtes est devenu LE lieu incontournable de Quimper pour passer une soirée entre potes. Pizza personnalisable et karaoké spontané : l'ambiance est toujours au rendez-vous !",
+    concept: "Pizza + Karaoké = Soirée réussie",
+    history: "Repris en septembre 2024 (ancien Chez Claudius), réinventé fin 2024 en bar à pizzas karaoké"
   },
 
-  services: [
-    {
-      name: "Gel",
-      description: "Pose de gel pour des ongles naturels et résistants",
-      icon: "sparkles"
+  pizza: {
+    size: "26 cm",
+    slogan: "La pizza au format malin pour petit prix",
+    base: {
+      name: "Base tomate & mozzarella",
+      price: 5.90
     },
-    {
-      name: "Semi-permanent",
-      description: "Vernis longue durée avec brillance éclatante",
-      icon: "palette"
+    toppings: {
+      price: 1.00,
+      list: [
+        "Jambon",
+        "Chorizo",
+        "Poulet",
+        "Lardons",
+        "Oignons",
+        "Crème",
+        "Chèvre",
+        "Miel",
+        "Persillade"
+      ]
     },
-    {
-      name: "Nail Art",
-      description: "Créations artistiques personnalisées selon vos envies",
-      icon: "paintbrush-2"
-    },
-    {
-      name: "Pédicure",
-      description: "Soins et beauté pour vos pieds",
-      icon: "heart"
-    }
-  ],
+    takeaway: true,
+    delivery: "Uber Eats"
+  },
+
+  karaoke: {
+    type: "À la demande",
+    provider: "KaraFun",
+    spontaneous: true,
+    danceFloor: true,
+    description: "Chantez, dansez, amusez-vous ! Le karaoké est disponible à tout moment sur demande."
+  },
 
   features: [
     {
-      title: "À domicile",
-      description: "Je me déplace chez vous dans un rayon de 20 km autour de Moréac",
-      highlight: true
+      title: "Pizzas personnalisables",
+      description: "Composez votre pizza 26cm selon vos envies. Base 5,90€ + 1€ par ingrédient",
+      icon: "pizza"
     },
     {
-      title: "Offre découverte",
-      description: "15% de réduction pour toutes les nouvelles clientes",
-      highlight: true
+      title: "Karaoké spontané",
+      description: "Envie de chanter ? On lance le karaoké à la demande pour des soirées inoubliables",
+      icon: "mic"
     },
     {
-      title: "Sur rendez-vous",
-      description: "Contactez-moi en message privé pour réserver votre créneau"
+      title: "Ambiance festive",
+      description: "Piste de danse, bonne musique et convivialité garantie entre potes",
+      icon: "party"
+    },
+    {
+      title: "Privatisation",
+      description: "Réservez L'Entrepôtes pour vos événements (minimum 20 personnes)",
+      icon: "users"
     }
   ],
 
   seo: {
-    title: "Nail.art.rox by Dina | Prothésiste Ongulaire Moréac (56500)",
-    description: "Roxana, prothésiste ongulaire passionnée à Moréac. Gel, semi-permanent, nail art & pédicure. Déplacement à domicile 20km. -15% nouvelles clientes. ☎ 06 60 27 48 20",
+    title: "L'Entrepôtes Quimper | Bar à Pizzas & Karaoké - Soirées Festives",
+    description: "Bar festif à Quimper : pizzas personnalisables 26cm dès 5,90€ + karaoké à la demande. Ouvert mer-dim 19h-1h. Ambiance conviviale garantie ! ☎ 06 28 21 10 48",
     keywords: [
-      "prothésiste ongulaire Moréac",
-      "nail art Moréac",
-      "onglerie Moréac 56500",
-      "gel semi-permanent Morbihan",
-      "pédicure domicile Moréac",
-      "manucure Locminé",
-      "styliste ongulaire Bretagne",
-      "pose gel Moréac",
-      "nail art domicile Morbihan",
-      "prothésiste ongulaire domicile 56"
+      "bar Quimper",
+      "pizza Quimper",
+      "karaoké Quimper",
+      "L'Entrepôtes",
+      "bar à pizzas Quimper",
+      "soirée festive Quimper",
+      "restaurant Quimper",
+      "pizza personnalisable Quimper",
+      "karaoké bar Finistère",
+      "sortie nocturne Quimper",
+      "bar ambiance Quimper",
+      "privatisation bar Quimper"
     ],
     og: {
-      title: "Nail.art.rox by Dina - Ongles parfaits, toujours",
-      description: "Prothésiste ongulaire à Moréac. Gel, semi-permanent, nail art sur-mesure. Déplacement à domicile. Offre -15% nouvelles clientes.",
+      title: "L'Entrepôtes - Bar à Pizzas & Karaoké à Quimper",
+      description: "Pizzas personnalisables + Karaoké spontané = Soirées mémorables ! Mer-dim 19h-1h au 3 bis rue Jean Jaurès.",
       image: "/og-image.jpg",
       type: "website"
     }
   },
 
   colors: {
-    primary: "#f4a8b4", // Rose poudré/blush sophistiqué
-    secondary: "#c4b5fd", // Mauve doux
-    accent: "#fcd5ce", // Pêche clair
-    gold: "#d4af37", // Doré
-    copper: "#b87333", // Cuivre
-    dark: "#2d1b2e", // Aubergine foncé
-    light: "#fef3f5" // Rose très pâle
+    wood: "#4a3428", // Brun bois foncé
+    woodLight: "#8b6f47", // Brun bois clair
+    cream: "#f5e6d3", // Crème beige
+    gold: "#f4c430", // Jaune or
+    red: "#c41e3a", // Rouge vif
+    redDark: "#8b1a2b", // Rouge foncé
+    orange: "#ff6b35", // Orange chaud
+    green: "#4a7c59" // Vert sauge (pour les ingrédients frais)
   }
 };
