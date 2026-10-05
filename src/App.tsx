@@ -385,7 +385,7 @@ function App() {
             <p>&copy; {new Date().getFullYear()} {siteConfig.name}. Tous droits réservés.</p>
             <p className="mt-2">Bar à pizzas & Karaoké à Quimper, Finistère (29)</p>
             <p className="mt-4 text-yellow-300/80">
-              Site créé par <a href="https://avalon-stratege.fr" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-200 underline decoration-yellow-300/50">Avalon Stratège</a>
+              Site créé par <a href="https://www.avalon-stratege.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-200 underline decoration-yellow-300/50">Avalon Stratège</a>
             </p>
           </div>
         </div>
